@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <p></p>
+    <h1>Course Sign Up Page</h1>
+    <p>new line</p>
+    <form method="get" action="form_select.html">
+      <p>
+        <label for="f_name">First Name:</label>
+        <input
+          type="text"
+          id="f_name"
+          placeholder="First Name"
+          name="First Name"
+          required
+        />
+        <label for="l_name">Last Name:</label>
+        <input
+          type="text"
+          id="l_name"
+          placeholder="Last Name"
+          name="Last Name"
+          required
+        />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="name@email.com" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" required />
+      </p>
+      <p>Are you over the age of 18?</p>
+      <p>
+        <label for="age_yes">Yes:</label>
+        <input type="radio" id="age_yes" name="age" value="yes" />
+        <label for="age_no">No:</label>
+        <input type="radio" id="age_no" name="age" value="no" />
+      </p>
+      <p>Do you have a Credit Card or PayPal?</p>
+      <select name="payment" id="payment">
+        <option value="Credit Card">Credit Card</option>
+        <option value="PayPal">PayPal</option>
+      </select>
+      <p>
+        <input type="submit" id="submit_button" value="Sign Up" />
+      </p>
+    </form>
+  </body>
+</html>
