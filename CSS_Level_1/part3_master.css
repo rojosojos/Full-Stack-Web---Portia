@@ -1,0 +1,48 @@
+h3 {
+}
+p {
+}
+ul {
+}
+li {
+}
+div {
+  color: red;
+}
+/* the "dot" is the selector for elements with a given "class" */
+.firstDiv {
+  color: blue;
+}
+.secondDiv {
+  color: green;
+}
+/* # is the selector for an element with that id */
+#singledout {
+  text-decoration: line-through;
+  color: red;
+}
+/* the asterisk is the selector for all elements on the page.  It will not override ids
+very uncommonly used*/
+* {
+  color: black;
+}
+
+/* selecting adjacent siblings (things next to other things).  Use the "+" operator to select items immediately after another element*/
+
+h3 + ul {
+  border: 3px dashed purple;
+}
+
+/* descendants of elements (elements indside another element, ie children of that element). just use a space*/
+
+li a {
+  color: red;
+}
+
+/* attributes - selects elements with particular a particular attribute.  put that attribute inside square brackets*/
+
+li a[href="https://amazon.com/"]
+{
+  color: blue;
+  border: 5px solid orange;
+}

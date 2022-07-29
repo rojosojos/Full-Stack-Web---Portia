@@ -1,0 +1,19 @@
+/* a list item is more specific than an unorder list therefore the li will override the ul regardless of order */
+
+li {
+  color: red;
+}
+
+ul {
+  color: purple;
+}
+
+/*the class is more specific than the general li and therefore overrides the li*/
+.topitems {
+  color: blue;
+}
+
+/*the id is more specific than the class and therefore overrides the class*/
+#two {
+  color: black;
+}

@@ -1,0 +1,22 @@
+body {
+  /* background-color: gray; */
+  background-image: url(https://t3.ftcdn.net/jpg/03/89/01/76/240_F_389017650_NICq6puOlWWiJuIlAQiCddWYw4kdSaqg.jpg);
+  background-size: cover;
+}
+
+div {
+  background-color: blue;
+  /* boder requires 3 elements: color, width, style*/
+  border-color: orange;
+  border-width: 10px;
+  border-style: double;
+}
+
+p {
+  color: yellow;
+}
+
+span {
+  background: red;
+  color: black;
+}

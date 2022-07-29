@@ -1,0 +1,20 @@
+/* Basic format
+selected tag{
+    property: 'value;
+} */
+
+h1 {
+  color: Blue;
+}
+
+li {
+  color: rgb(4, 125, 69);
+}
+
+p {
+  color: rgba(255, 0, 179, 0.827);
+}
+
+h4 {
+  color: #ff7700;
+}
