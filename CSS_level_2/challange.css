@@ -1,0 +1,41 @@
+:root {
+  --base-height: 150px;
+  --base-width: 18%;
+  --main-background-color: #fefae0;
+  background-color: var(--main-background-color);
+}
+
+.heading {
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "PunkNovaRegular";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+#main-table {
+  margin: auto;
+  width: 65%;
+  /* border-spacing: 5px; */
+}
+td {
+  border: 3px solid var(--main-background-color);
+  height: var(--base-height);
+  width: var(--base-width);
+}
+.first {
+  background-color: #264653;
+}
+.second {
+  background-color: #2a9d8f;
+}
+.third {
+  background-color: #e9c46a;
+}
+.fourth {
+  background-color: #f4a261;
+}
+.fifth {
+  background-color: #e76f51;
+}
